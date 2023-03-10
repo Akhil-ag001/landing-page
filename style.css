@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+}
+
+/* header */
+.header, .com-info, .footer{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.header .logo{
+    font-size: 32px;
+    color: #f9faf8;
+}
+.right-links{
+    font-size: 24px;
+    display: flex;
+    gap: 8px
+}
+
+/* content */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex: 1;
+}
+
+/* com-info */
+.com-info{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 100vw    ;
+    min-height: 300px;
+    padding: 24px;
+}
+.com-info .text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 300px;
+}
+.content .com-info .text .heading{
+    font-size: 56px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.content .com-info .text .desc-com-info{
+    max-width: 450px;
+    font-size: 24px;
+    color: #e5e7eb;
+}
+.sign-up{
+    width: 120px;
+    padding: 8px 24px;
+}
+.co-logo{
+    height: 200px;
+    width: auto;
+    border-radius: 8px;
+}
+
+/* examples */
+.examples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+.examples .heading{
+    width: 100vw;
+    text-align: center;
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.set{
+    max-width: 200px;
+    margin: 10px;
+}
+
+
+
+
+.cus-review{
+    width: 100%;
+    display: flex;
+    flex-direction: column      ;
+    align-items: center;
+    font-size: 36px;
+    background-color: #e5e7eb;
+    padding: 16px;
+}
+.review{
+    width: 50%  ;
+    font-style: italic;
+}
+
+
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 32px;
+}
+.desc-co-us{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}
+.head-co-us{
+    font-size: 28px;
+    font-weight: 700;
+}
+.contact{
+    padding: 8px 24px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 12px;
+    color: #e5e7eb;
+    align-items: center;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 8px;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+div{
+    margin: 0px ;
+}
